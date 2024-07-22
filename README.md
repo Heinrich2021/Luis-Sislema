@@ -1,7 +1,6 @@
 <h1>2324 - PROGRAMACION ORIENTADA A OBJETOS -- UEA-L-UFB-026</h1>
 
 <h3>Repositorio de código fuente utilizado en la Asignatura de programacion orientada a objetos</h3>
-
 <p>
     <strong>Institución: </strong>Universidad Estatal Amazónica <br>
     <strong>Carrera: </strong>Ingeniería en Tecnologías de la Información <br>

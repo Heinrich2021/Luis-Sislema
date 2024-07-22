@@ -35,16 +35,15 @@ def mostrar_menu():
     ruta_base = os.path.dirname(__file__)
 
     unidades = {
-        '1': 'semana 1.dashboar.py ',
-        '2': 'semana 2.Datos, identificadores_POO.py ',
-        '3': 'semana 3. Ejm.mundo.real.py',
-        '4': 'semana 4.P.tradicional.py ',
-        '5': 'semana 5. POO.py',
-        '6': 'semana 6. README.md',
-        '7': 'semana 7. Semana .2.py',
-        '8': 'semana 8. Semana 6.py',
-        '9': 'semana 9. Tradicional.py',
-        '10': 'semana 10. whiteboard.py',
+        '1': 'presentacion 1./README.md.',
+        '2': 'semana 2./Ejemplos de Técnicas de Programación.',
+        '3': 'semana 3./Programación Tradicional y POO.',
+        '4': 'semana 4./"EjemplosMundoReal_POO".',
+        '5': 'semana 5./Tipos de datos, Identificadores.',
+        '6': 'semana 6./Clases, objetos, herencia, encapsulamiento y polimorfismo',
+        '7': 'semana 7./Constructores y Destructores',
+        '8': 'semana 8./Dashboard.py.',
+
     }
 
     while True:

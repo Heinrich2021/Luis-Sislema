@@ -8,6 +8,7 @@ class Personaje:
         self.vida = vida
 
     def atributos(self):
+
         print(self.apellido, ":", sep="")
         print("·Fuerza:", self.fuerza)
         print("·Inteligencia:", self.inteligencia)
