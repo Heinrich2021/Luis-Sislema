@@ -6,10 +6,10 @@ class AvesProduccion:
         """
         Constructor para la clase AvesProduccion.
 
-        :para id: ID único del lote de aves
-        :para tipo: Tipo de ave (e.g., gallina, pavo)
-        :para cantidad: Cantidad de aves en el lote
-        :para produccion_diaria: Producción diaria (e.g., huevos, carne) en unidades
+        :para el id: ID único del lote de aves
+        :para el tipo: Tipo de ave (e.g., gallina, pavo)
+        :para la cantidad: Cantidad de aves en el lote
+        :para la produccion_diaria: Producción diaria (e.g., huevos, carne) en unidades
         """
         self.id = id
         self.tipo = tipo
@@ -71,7 +71,7 @@ class InventarioAves:
         """
         Añade un nuevo lote al inventario si el ID es único.
 
-        :para lote: Instancia de la clase AvesProduccion a añadir
+        :para el lote: Instancia de la clase AvesProduccion a añadir
         """
         if any(l.get_id() == lote.get_id() for l in self.lotes):
             print(f"Error: El lote con ID {lote.get_id()} ya existe.")
@@ -83,7 +83,7 @@ class InventarioAves:
         """
         Elimina un lote del inventario por su ID.
 
-        :para id: ID del lote a eliminar
+        :para el id: ID del lote a eliminar
         """
         for lote in self.lotes:
             if lote.get_id() == id:
@@ -96,9 +96,9 @@ class InventarioAves:
         """
         Actualiza la cantidad o la producción diaria de un lote por su ID.
 
-        :para id: ID del lote a actualizar
-        :para cantidad: Nueva cantidad de aves en el lote (opcional)
-        :para produccion_diaria: Nueva producción diaria en unidades (opcional)
+        :para el id: ID del lote a actualizar
+        :para la cantidad: Nueva cantidad de aves en el lote (opcional)
+        :para la produccion_diaria: Nueva producción diaria en unidades (opcional)
         """
         for lote in self.lotes:
             if lote.get_id() == id:
@@ -114,7 +114,7 @@ class InventarioAves:
         """
         Busca lotes por tipo de ave y muestra los encontrados.
 
-        :para tipo: Tipo de ave a buscar (e.g., gallina, pavo)
+        :para el tipo: Tipo de ave a buscar (e.g., gallina, pavo)
         """
         encontrados = [l for l in self.lotes if tipo.lower() in l.get_tipo().lower()]
         if encontrados:
