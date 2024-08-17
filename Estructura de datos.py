@@ -59,6 +59,7 @@ class AvesProduccion:
 # Clase_InventarioAves
 # Se gestiona una lista de lotes de aves, permitiendo añadir, eliminar, actualizar, buscar y mostrar los lotes.
 # Se asegura de que cada ID sea único antes de añadir un nuevo lote al inventario.
+
 class InventarioAves:
     def __init__(self):
         """
