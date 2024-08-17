@@ -6,10 +6,10 @@ class AvesProduccion:
         """
         Constructor para la clase AvesProduccion.
 
-        :param id: ID único del lote de aves
-        :param tipo: Tipo de ave (e.g., gallina, pavo)
-        :param cantidad: Cantidad de aves en el lote
-        :param produccion_diaria: Producción diaria (e.g., huevos, carne) en unidades
+        :para id: ID único del lote de aves
+        :para tipo: Tipo de ave (e.g., gallina, pavo)
+        :para cantidad: Cantidad de aves en el lote
+        :para produccion_diaria: Producción diaria (e.g., huevos, carne) en unidades
         """
         self.id = id
         self.tipo = tipo
