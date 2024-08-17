@@ -188,7 +188,6 @@ def interfaz_usuario():
         else:
             print("Opción no válida. Intente de nuevo.")
 
-
 # Ejecutar la interfaz de usuario cuando se ejecute el script
 if __name__ == "__main__":
     interfaz_usuario()
