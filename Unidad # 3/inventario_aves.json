@@ -1,0 +1,20 @@
+{
+    "196-24ross": {
+        "id_aves": "196-24ross",
+        "tipo": "Coral",
+        "cantidad": 3989,
+        "produccion_diaria": 3700.0
+    },
+    "197-24ross": {
+        "id_aves": "197-24ross",
+        "tipo": "Coral",
+        "cantidad": 4000,
+        "produccion_diaria": 3500.0
+    },
+    "198-cobb": {
+        "id_aves": "198-cobb",
+        "tipo": "Postura",
+        "cantidad": 4500,
+        "produccion_diaria": 3000.0
+    }
+}
